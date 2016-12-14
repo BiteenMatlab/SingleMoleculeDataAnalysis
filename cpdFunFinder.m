@@ -4,7 +4,7 @@ function outStruct = cpdFunFinder(nMobile)
 %       cpdFunFinder
 % PURPOSE:
 %       Based on the number of diffusive terms, determine the fitting
-%       function structure required for use in the CPDGlobal. code.
+%       function structure required for use in the CPDGlobal.m code.
 % CATEGORY:
 %       Data fitting
 % CALLING SEQUENCE:
@@ -38,6 +38,10 @@ LB(7:10) = 0;
 UB=inf(1,numel(pStart));
 UB(7:10) = 1;
 
+%% Model selection. 
+% The number of mobile populations expected corresponds to the value of
+% nMobile, which ranges from 1 to 5 below. nMobile = 3 expects the data to
+% be trajectories including steps from three diffusive populations.
 switch nMobile
     case 1
         msdFun=@(tau,p) ...
@@ -95,6 +99,7 @@ switch nMobile
         pID = [1:10];
 end
 
+%% output organization
 pStart={pStart(pID)};
 bounds=[{LB(pID)},{UB(pID)}];
 dID = find(ismember(pID,[1,3:6]));
