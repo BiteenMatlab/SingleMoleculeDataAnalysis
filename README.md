@@ -13,6 +13,9 @@ simpleDiffusion.m : Matlab program that generates trajectories of diffusing part
 
 
 Updated 0208/2022 Ziyuan Chen
+
 Now included the Normalized fits and steps position heatmap codes as well. 
+
 FitsPosAxis.m : Matlab program to get the normalized single-molecule fit position in the bacterial cells.
+
 StepPosAxis.m : Matlab program to get the normalized single-molecule tracking step position in the bacterial cells.
