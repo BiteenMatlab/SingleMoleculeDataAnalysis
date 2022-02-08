@@ -9,3 +9,10 @@ CPDGlobal.m : Matlab program that uses tracking files (see header for data types
 cpdFunFinder.m : Matlab program that is auxiliary to CPDGlobal.m. This code designs the particular fitting function to be used and can be edited to include diffusion models of one's choice.
 
 simpleDiffusion.m : Matlab program that generates trajectories of diffusing particles. The output has the data type that is expected by CPDGlobal.m.
+
+
+
+Updated 0208/2022 Ziyuan Chen
+Now included the Normalized fits and steps position heatmap codes as well. 
+FitsPosAxis.m : Matlab program to get the normalized single-molecule fit position in the bacterial cells.
+StepPosAxis.m : Matlab program to get the normalized single-molecule tracking step position in the bacterial cells.
