@@ -7,4 +7,5 @@ authors:
 title: BiteenMatlab/SingleMoleculeDataAnalysis: v2.0.0
 version: single-molecule-mapping
 date-released: 2023-01-05
-            
+doi: 10.5281/zenodo.7507835
+url: "https://github.com/BiteenMatlab/SingleMoleculeDataAnalysis"
