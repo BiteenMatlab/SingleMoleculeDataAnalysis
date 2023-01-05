@@ -19,3 +19,7 @@ The repository now includes subfolder Normalized_heatmap with code for Normalize
 FitsPosAxis.m : Matlab program to get the normalized single-molecule fit position in the bacterial cells.
 
 StepPosAxis.m : Matlab program to get the normalized single-molecule tracking step position in the bacterial cells.
+
+Updated 1/5/2023: Ziyuan Chen
+
+Created zenodo doi: 10.5281/zenodo.7507835
