@@ -1,9 +1,9 @@
 cff-version: 1.1.0
 message: "If you use this software, please cite it as below."
 authors:
-  - family-names: Joe
-    given-names: Johnson
-    orcid: https://orcid.org/0000-0000-0000-0000
+  - family-names: Chen
+    given-names: Ziyuan
+    orcid: https://orcid.org/0000-0003-2832-945X
 title: BiteenMatlab/SingleMoleculeDataAnalysis: v2.0.0
 version: single-molecule-mapping
 date-released: 2023-01-05
